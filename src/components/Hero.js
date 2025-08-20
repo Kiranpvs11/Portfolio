@@ -19,14 +19,14 @@ const Hero = () => {
               Full Stack Developer
             </h1>
             <div className="flex gap-4 mb-4">
-              <a
+               {/* <a
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-red-500 text-white px-5 py-2 rounded-full font-medium hover:bg-red-600 transition"
               >
                 Resume
-              </a>
+              </a> */}
               <a
                 href="https://www.linkedin.com/in/kiranpvs110399"
                 target="_blank"
@@ -50,7 +50,7 @@ const Hero = () => {
             I am a Full-Stack Software Engineer with 5+ years of experience in finance and healthcare domains, delivering secure, cloud-native applications. I have built scalable Spring Boot microservices and secure REST APIs, deploying them on AWS and Red Hat OpenShift to ensure high performance and reliability. My expertise spans developing React.js dashboards using Redux and Axios, implementing CI/CD pipelines with Docker and Jenkins, and securing platforms with Spring Security, JWT, and OAuth 2.0. I am proficient in multiple programming languages including Java, Python, SQL, TypeScript, JavaScript, and Kotlin, and experienced with frameworks such as Spring Boot, Spring MVC, Spring Data JPA, Spring Cloud, Express.js, React Native, and GraphQL. My technical skill set extends to cloud platforms like AWS (SQS, SNS, S3, EC2, Lambda, CloudFormation), databases including MySQL, PostgreSQL, MongoDB, and Oracle, and tools such as Git, GitHub, Kubernetes, Swagger UI, SOAP UI, RabbitMQ, and Mockito. Following SDLC best practices and Agile/Scrum-Ban methodologies, I collaborate closely with cross-functional teams to deliver high-quality, production-ready features that drive business value.
           </p>
 
-          {/* ICON BUTTONS CENTERED */}
+          {/* ICON BUTTONS CENTERED 
           <div className="flex justify-center gap-8">
             <a
               href="https://github.com/your-username"
@@ -68,7 +68,7 @@ const Hero = () => {
             >
               <FaLinkedin />
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
